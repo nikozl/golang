@@ -49,7 +49,7 @@ func main()  {
 	servername := "smtp.gmail.com:465"
 	host := "smtp.gmail.com"
 
-	auth := smtp.PlainAuth("", "lemursinalas@gmail.com", "1N1S4K1Z", host)
+	auth := smtp.PlainAuth("", "lemursinalas@gmail.com", "yourpassword", host)
 
 	tlsConfig := &tls.Config{
 		InsecureSkipVerify: true,
